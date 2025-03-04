@@ -15,21 +15,78 @@ body{
     align-items: stretch;
 }
 .header{
-    width: 100%;
-    height: 10%;
+    width: 95%;
+    height: 60px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+.icon.html{
+    margin: 15px; 
+    
+    
+}
+.texto{
+    margin: 5px;
+    font-family: sans-serif;
+    
+}
+.name{
+    margin: 5px;
+}
+.icon-dots{
+    margin-left: auto;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 10px;
 }
 
-
-    
 img{
     width: 500px;
     height: 300px;
     margin: 0 auto;
 }
+.iconos{
+    width: 95%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+    padding: 10px;
+
+}
+.icon-heart{
+    margin-right: 5px;
+}
+.icon-comment{
+    margin: 5px;
+}
+.icon-plane{
+    margin: 5px;
+
+}
+.icon-bookmark{
+    margin-left: auto;
+}
+
+
 .bottom{
-    width: 300px;
+    width: 100%;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.comentario{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 }
